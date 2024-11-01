@@ -1,0 +1,25 @@
+{
+  "name": "slack_bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "@slack/bolt": "^4.0.1",
+    "dotenv": "^16.4.5",
+    "openai": "^4.68.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0"
+  }
+}
